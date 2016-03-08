@@ -78,6 +78,9 @@ figure div {
     padding-left: 18px;
 }
 
-footer {
+footer.main-footer {
     clear: both;
+    font-size: 20px;
+    font-family:  verdana;
+    text-align: center;
 }
