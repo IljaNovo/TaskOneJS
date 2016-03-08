@@ -22,7 +22,7 @@ header .page-header
 
 nav {
     float: left;
-    width: 21%;
+    width: 23%;
     padding: 7px;
     padding-top: 0px;
 }
@@ -40,10 +40,36 @@ nav h3 {
 
 main {
     float: left;
-    width: 40%;
+    width: 52%;
+    font-size: 23px;
+    font-family: verdana;
+    
+}
+
+main article header {
+    text-align: center;
+}
+
+main article .text-one {
+    text-align: justify;
+    margin-bottom: 16px;
+}
+
+main article .text-two {
+    margin: 0;
+    text-align: justify;
+}
+
+main footer {
+    text-align: center;
 }
 
 aside {
-    float: right
+    float: right;
+    width: 23%;
+}
+
+footer {
+    clear: both;
 }
 
