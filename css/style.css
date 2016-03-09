@@ -3,12 +3,37 @@ body {
     font-family: verdana;
 }
 
+main header h4 {
+    margin: 0;
+}
+
+section {
+    float: left;
+    background: #405A36;
+}
+
+article.article-one {
+    margin-top: 17px;
+    background: #D9D2BC;
+    height: 275px;
+    padding: 12px;
+}
+
+article.article-two {
+    
+    background: #D9D2BC;
+    height: 195px;
+    padding: 12px;
+    margin: 17px 0;
+}
+
 header.main-header {
+    background: #473253;
+    color: #D9D2BC;
     display: table;
     margin-bottom: auto;
     height: 200px;
     width: 100%;
-    background: #ccc;
 }
 
 header .page-header
@@ -17,7 +42,7 @@ header .page-header
     text-align: center;
     display: table-cell;
     vertical-align: middle;
-    line-height: 35px
+    line-height: 35px;
 }
 
 nav {
@@ -30,11 +55,13 @@ nav {
 nav dl {
     font-size: 22px;
     text-indent: 13px;
+    color: #431C24;
 }
 
 nav h3 {
     font-size: 25px;
-    text-indent: 34px;
+    text-indent: 40px;
+    color: white;
 }
 
 main {
@@ -45,20 +72,29 @@ main {
 
 main article header {
     text-align: center;
+    background: #473253;
+    color: #B9B29B;
+    border-radius: 10px;
 }
 
-main article .text-one {
+article.article-one .text-one {
     text-align: justify;
     margin-bottom: 16px;
 }
 
-main article .text-two {
-    margin: 0;
+article.article-one .text-two {
+    text-align: justify;
+}
+
+article.article-two .text-one {
     text-align: justify;
 }
 
 main footer {
     text-align: center;
+    color: #B9B29B;
+    background: #623D48;
+    border-radius: 10px;
 }
 
 aside {
@@ -67,15 +103,23 @@ aside {
     width: 23%;
     text-align: center;
     font-size: 20px;
-    text-align: center;
+    color: aliceblue;
 }
 
 figure div {
     padding-left: 18px;
+    margin: 0;
 }
 
 footer.main-footer {
     clear: both;
     font-size: 20px;
     text-align: center;
+    height: ;
+    color: #B9B29B;
+    background: #623D48;
+}
+
+footer.main-footer h3 {
+    margin: 0;
 }
